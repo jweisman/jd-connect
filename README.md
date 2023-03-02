@@ -1,2 +1,2 @@
 # jd-connect
- John Deere OAuth Connect
+ John Deere OAuth Connection
