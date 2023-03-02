@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block content %}
+   <h1>Connect to John Deere</h1>
+   <p>Use this webpage to connect your John Deere Op Center data to Taranis. Follow these easy steps:</p>
+   <ul>
+    <li>Click the button below to begin the process</li>
+    <li>Login to your Op Center account</li>
+    <li>Confirm permissions for Taranis</li>
+    <li>Specify which connected organizations you wish to share data from</li>
+   </ul>
+   <a class="btn btn-primary" href="{{ authorization_request }}" role="button">Link</a>
+{% endblock %}
